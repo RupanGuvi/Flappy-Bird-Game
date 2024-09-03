@@ -21,6 +21,15 @@
   left: 30vw;
   z-index: 100;
 }
+.pipe{
+  position: fixed;
+  top: 40vh;
+  left: 100vw;
+  height: 70vh;
+  width: 6vw;
+  background: radial-gradient(lightgreen 50%, green);
+  border: 5px solid black;
+}
 .message{
   position: absolute;
   z-index: 10;
@@ -30,6 +39,12 @@
   font-size: 4em;
   transform: translate(-50%,-50%);
   text-align: center;
+}
+.msgstyle{
+  background: whitesmoke;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+  border-radius: 25px;
 }
 .score{
   position: fixed;
