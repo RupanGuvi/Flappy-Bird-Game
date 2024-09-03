@@ -64,3 +64,21 @@
   color: gold;
   font-weight: bolder;
 }
+
+@media only screen and (max-width: 1080px){
+  .message{
+    font-size: 50px;
+    top: 50%;
+    white-space: nowrap;
+  }
+  .score{
+    font-size: 8vh;
+  }
+  .bird{
+    width: 120px;
+    height: 90px;
+  }
+  .pipe{
+    width: 14vw;
+  }
+} 
