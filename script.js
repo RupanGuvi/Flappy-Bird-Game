@@ -162,7 +162,7 @@ function play(){
            document.body.appendChild(pipeinverse);
            //from bottom to top of pipe
             let pipe = document.createElement("div");
-            pipe.className = ".pipe";
+            pipe.className = "pipe";
             pipe.style.top = pipeposition + pipegap + "vh";
             pipe.style.left = "100vw";
             pipe.increase_score='1';
